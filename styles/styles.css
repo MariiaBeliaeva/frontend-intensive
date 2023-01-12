@@ -226,3 +226,18 @@ margin-top: 15px;
     left: 401px;
 }
 
+.footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 25px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 15px;
+    color: #030305;
+}
