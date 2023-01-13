@@ -132,8 +132,12 @@ body {
     top: 40px;
 }
 
-.car-item-image {
+.car-item-image:hover img {
+    transform: scale(1.1);
+}
+.car-item-image img {
     vertical-align: bottom;
+    transition: all .3s;
 }
 
 .car-item-title {
